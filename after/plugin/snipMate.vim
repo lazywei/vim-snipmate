@@ -25,7 +25,7 @@ exec 'snor <silent> ' . g:snips_trigger_key_backwards . ' <esc>i<right><c-r>=sni
 exec 'ino <silent> <c-r>' . g:snips_trigger_key . ' <c-r>=snipMate#ShowAvailableSnips()<cr>'
 
 " maybe there is a better way without polluting registers ?
-exec 'xnoremap ' . g:snips_trigger_key. ' s<c-o>:let<space>g:snipmate_content_visual=getreg('1')<cr>'
+" exec 'xnoremap ' . g:snips_trigger_key. ' s<c-o>:let<space>g:snipmate_content_visual=getreg('1')<cr>'
 
 " The default mappings for these are annoying & sometimes break snipMate.
 " You can change them back if you want, I've put them here for convenience.
